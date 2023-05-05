@@ -1,0 +1,235 @@
+.page-first .main-box {
+    display: flex;
+}
+
+.page-first .main-box .left-side {
+    width: 75%;
+    padding-left: 130px;
+}
+
+
+.page-first .main-box .right-side {
+    width: 25%;
+    padding-left: 100px;
+}
+
+.page-first .main-box .right-side .logos {
+    padding-top: 95px;
+    padding-left: 50px;
+    display: flex;
+}
+
+.page-first .main-box .right-side .logos img {
+    display: block;
+}
+
+.page-first .main-box .right-side .logos img.logo-3 {
+    margin-top: 35px;
+}
+
+.page-first .main-box .right-side .logos img.logo-4 {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.page-first .main-box .right-side .text-block-1 {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 59px;
+    line-height: 87px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .right-side .text-block-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-first .main-box .right-side .text-block-2 .value {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 71px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .right-side .text-block-2 .dot {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -18px;
+    border-radius: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+.page-first .main-box .right-side .text-block-2 .description {
+    margin-top: -10px;
+    font-size: 24px;
+    line-height: 31px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .right-side .text-block-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.page-first .main-box .right-side .text-block-3 > div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.page-first .main-box .right-side .text-block-3 .value {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .right-side .text-block-3 .description {
+    margin-top: -10px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .right-side .actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.page-first .main-box .left-side .top {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-first .main-box .left-side .top .top-block.lottie-block {
+    margin: 20px -20px 0px -20px;
+    position: relative;
+}
+
+.page-first .main-box .left-side .top .top-block .lottie-point {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: #FF0000;
+    position: absolute;
+    left: calc(74px - 8px);
+    top: calc(74px - 8px);
+    z-index: 1;
+}
+
+.page-first .main-box .left-side .top .top-block .small-text{
+    font-size: 35px;
+    line-height: 45px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .left-side .top .top-block .big-text{
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 107px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .left-side .middle {
+    display: flex;
+    justify-content: center;
+    margin-top: 86px;
+}
+
+.page-first .main-box .left-side .middle .middle-block {
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.page-first .main-box .left-side .middle .middle-block .middle-block-box {
+    border: 1px solid #FFFFFF;
+    padding: 20px 50px;
+}
+
+.page-first .main-box .left-side .middle .middle-block .middle-block-box .big-text {
+    font-size: 68px;
+    font-weight: bold;
+    line-height: 88px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .left-side .middle .middle-block .middle-block-description .image {
+    min-width: 68px;
+    height: 68px;
+}
+
+.page-first .main-box .left-side .middle .middle-block .middle-block-description .image img {
+    height: 100%;
+    width: auto;
+}
+
+.page-first .main-box .left-side .middle .middle-block .middle-block-description .description {
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 45px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    min-height: 48px;
+}
+
+.page-first .main-box .left-side .bottom {
+    display: flex;
+    margin-top: 64px;
+    justify-content: center;
+}
+
+.page-first .main-box .left-side .bottom .bottom-block {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.page-first .main-box .left-side .bottom .bottom-block .image {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.page-first .main-box .left-side .bottom .text-block-1 {
+    margin-top: 15px;
+    font-size: 26px;
+    line-height: 34px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .left-side .bottom .text-block-2 {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 57px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-first .main-box .left-side .bottom .bar {
+    height: 14px;
+    border-radius: 7px;
+    width: 142px;
+    margin: 10px auto;
+}
+
+
+.page-first .main-box .left-side .bottom .bar.color-3 {
+    background: #C500DE;
+    box-shadow: 0px 3px 24px #C51ADEAA;
+}
+
+.page-first .main-box .left-side .bottom .bar.color-4 {
+    background: #00C7C7;
+    box-shadow: 0px 3px 24px #00C7C6AC;
+}
+
+.page-first .main-box .left-side .bottom .bar.color-5 {
+    background: #52A9E7;
+    box-shadow: 0px 3px 24px #52A9E7;
+}

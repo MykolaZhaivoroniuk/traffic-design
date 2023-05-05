@@ -1,0 +1,356 @@
+.page-last .main-box .top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 34px;
+    padding-right: 45px;
+    margin-top: 22px;
+}
+
+.page-last .main-box .top .left .top-left-blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-last .main-box .top .left .top-text {
+    margin-left: 85px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-last .main-box .top .left .top-left-blocks .top-left-block-item .value {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-last .main-box .top .left .top-left-blocks .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    margin-top: -20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.page-last .main-box .top .left .top-left-blocks .btn-real-time {
+    margin-left: 42px;
+}
+
+.page-last .main-box .top .left .top-left-blocks .top-left-block-item .description {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-last .main-box .top .right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-last .main-box .top .right .right-block-item {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    padding-left: 40px;
+}
+
+.page-last .main-box .top .right .right-block-item .value {
+    font-weight: bold;
+    font-size: 41px;
+    line-height: 57px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-last .main-box .top .right .right-block-item .description {
+    font-size: 25px;
+    line-height: 26px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+}
+
+.page-last .main-box .top .right .right-block-item .image {
+    margin-left: 22px;
+}
+
+.page-last .main-box .top .right .right-block-item:nth-child(1) .image img {
+    height: 68px;
+    display: block;
+}
+
+.page-last .main-box .top .right .right-block-item:nth-child(2) .image img {
+    height: 61px;
+    display: block;
+}
+
+.page-last .main-box .middle .middle-block .item-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+
+.page-last .main-box .middle .middle-block .item-boxes .item-box-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.page-last .main-box .middle .middle-block .item-boxes .item-box-wrapper:nth-child(1) {
+    margin-top: 0px;
+}
+
+.page-last .main-box .middle .middle-block .item-boxes .item-box-wrapper > .image img {
+    margin-left: 7px;
+    height: 10px;
+}
+
+.page-last .main-box .middle .middle-block-inner .part-block {
+    margin-top: calc(-78px + 55px);
+    margin-left: -45px;
+    position: relative;
+}
+
+.page-last .main-box .middle .middle-block:nth-child(5) .middle-block-inner .part-block {
+    margin-left: -10px;
+}
+
+.page-last .main-box .middle .middle-block:nth-child(6) .middle-block-inner .part-block,
+.page-last .main-box .middle .middle-block:nth-child(7) .middle-block-inner .part-block {
+    margin-top: 0px;
+}
+
+.page-last .main-box .middle .middle-block:nth-child(6) .middle-block-inner .item-boxes,
+.page-last .main-box .middle .middle-block:nth-child(7) .middle-block-inner .item-boxes {
+    margin-top: calc(-78px + 55px);
+}
+
+.page-last .main-box .middle .middle-block .part-block .part-name{
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 34px;
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    position: absolute;
+    width: 100%;
+    top: calc(50% + 18px);
+}
+
+.page-last .main-box .middle .middle-block:nth-child(3) .part-block .part-name {
+    top: calc(50% - 90px);
+}
+
+.page-last .main-box .middle .middle-block:nth-child(5) .part-block .part-name {
+    top: calc(50% - 50px);
+}
+
+.page-last .main-box .middle .middle-block:nth-child(2) .part-block .part-name,
+.page-last .main-box .middle .middle-block:nth-child(4) .part-block .part-name {
+    top: calc(50% + 33px);
+}
+
+.page-last .main-box .middle .middle-block .part-block .center-point {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    left: calc(50% - 8px);
+    top: calc(50% - 8px);
+    background: #FFFFFF;
+    z-index: 2;
+}
+
+.page-last .main-box .middle .middle-block .part-block .center-point.big {
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+}
+
+.page-last .main-box .middle .middle-block .part-block lottie-player {
+    position: absolute;
+    left: 0;
+}
+
+.page-last .main-box .middle .middle-block.block-1 {
+    position: absolute;
+    left: 192px;
+    top: calc(464px - 50px + 10px);
+}
+
+.page-last .main-box .middle .middle-block.block-2 {
+    position: absolute;
+    left: 389px;
+    top: calc(464px - 50px * 2 + 10px);
+}
+
+.page-last .main-box .middle .middle-block.block-3 {
+    position: absolute;
+    left: 832px;
+    top: calc(464px);
+}
+
+.page-last .main-box .middle .middle-block.block-4 {
+    position: absolute;
+    left: 1010px;
+    top: calc(464px - 50px * 2 + 10px);
+}
+
+.page-last .main-box .middle .middle-block.block-5 {
+    position: absolute;
+    left: 1413px;
+    top: calc(464px - 50px * 4 + 10px - 12px);
+}
+
+.page-last .main-box .middle .middle-block.block-6 {
+    position: absolute;
+    left: 1582px;
+    top: 452px;
+}
+
+.page-last .main-box .middle .middle-block.block-7 {
+    position: absolute;
+    left: 832px;
+    top: 695px;
+}
+
+.page-last .main-box .middle .middle-block.block-1 .part-block .line {
+    position: absolute;
+    background: #82C700;
+    box-shadow: 0px 0px 13px #82C700AA;
+    width: calc(191px + 16px);
+    height: 24px;
+    border-radius: 12px;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+
+}
+
+.page-last .main-box .middle .middle-block.block-2 .part-block .line {
+    position: absolute;
+    background: #008DF5;
+    box-shadow: 0px 0px 13px #008DF5B2;
+    width: calc(435px + 8px + 12px);
+    height: 24px;
+    border-radius: 12px;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+}
+
+.page-last .main-box .middle .middle-block.block-4 .part-block .line {
+    position: absolute;
+    background: #F5BD23;
+    box-shadow: 0px 0px 13px #F5BD00B7;
+    width: calc(172px + 8px + 12px);
+    height: 24px;
+    border-radius: 12px;
+    right: calc(50% - 12px);
+    top: calc(50% - 12px);
+}
+
+.page-last .main-box .middle .middle-block.block-5 .part-block .line {
+    position: absolute;
+    background: #00C7C7;
+    box-shadow: 0px 0px 13px #00C7C6AC;
+    width: calc(436px + 8px + 8px);
+    height: 24px;
+    border-radius: 12px;
+    right: calc(50% - 12px);
+    top: calc(50% - 12px);
+}
+
+.page-last .main-box .middle .middle-block.block-6 .part-block .line {
+    position: absolute;
+    background: #C500DE;
+    box-shadow: 0px 0px 13px #C51ADEAA;
+    width: calc(572px + 8px + 8px);
+    height: 24px;
+    border-radius: 12px;
+    right: calc(50% - 12px);
+    top: calc(50% - 12px);
+}
+
+.page-last .main-box .middle .middle-block.block-7 .part-block .line {
+    position: absolute;
+    background: #C7004D;
+    box-shadow: 0px 0px 13px #BD0249A3;
+    height: calc(250px + 8px + 8px);
+    width: 24px;
+    border-radius: 12px;
+    right: calc(50% - 12px);
+    bottom: calc(50% - 12px);
+}
+
+.page-last .main-box .middle .middle-block.block-2 .part-block .ring-point {
+    position: absolute;
+    background: #008DF5;
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    left: calc(50% - 23px);
+    top: calc(50% - 23px);
+    z-index: 1;
+}
+
+.page-last .main-box .middle .middle-block.block-3 .part-block .ring-point {
+    position: absolute;
+    background: #212C57;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    left: calc(50% - 45px);
+    top: calc(50% - 45px);
+    z-index: 1;
+}
+
+.page-last .main-box .middle .middle-block.block-4 .part-block .ring-point {
+    position: absolute;
+    background: #F5BD23;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    left: calc(50% - 25px);
+    top: calc(50% - 25px);
+    z-index: 1;
+}
+
+.page-last .main-box .middle .middle-block .part-block .line {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page-last .main-box .middle .middle-block:nth-child(7) .part-block .line {
+    flex-direction: column;
+}
+
+.page-last .main-box .middle .middle-block .part-block .line img {
+    height: 10.6px;
+    width: auto;
+    display: block;
+}
+
+.page-last .main-box .middle .middle-block .part-block .line img.down,
+.page-last .main-box .middle .middle-block .part-block .line img.up {
+    width: 10px;
+    height: auto;
+}
+
+
+.page-last .main-box .middle .middle-block .part-block .line .images.both img.before {
+    margin-left: -10px;
+    margin-top: -6px;
+}
+
+.page-last .logos {
+    position: absolute;
+    left: 43px;
+    bottom: 90px;
+}
+
+.page-last .logos img {
+    padding-right: 22px;
+}
